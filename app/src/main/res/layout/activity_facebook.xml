@@ -97,7 +97,7 @@
         android:layout_margin="5dp"
         android:layout_marginBottom="16dp"
         android:elevation="10dp"
-        app:cardCornerRadius="10dp"
+        app:cardCornerRadius="5dp"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -106,8 +106,8 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="69dp"
-            android:layout_height="67dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:scaleType="centerCrop"
             app:srcCompat="@drawable/facebook_icon"
             tools:layout_editor_absoluteX="60dp"
