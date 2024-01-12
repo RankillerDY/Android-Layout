@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LinearLayoutKPT">
+
+    <!-- New LinearLayout as a parent -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/purple"
+        android:elevation="20dp"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:shadowRadius="10"
+        android:text="@string/linear_layout_kpt"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="400dp"
+                android:layout_gravity="start"
+                android:background="@color/light_brown"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/text_light_brown"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="188dp" />
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="@color/dirt_brown"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/text_light_brown"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="188dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="109dp"
+                android:layout_height="200dp"
+                android:layout_gravity="start"
+                android:background="@color/pink_purple"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="188dp" />
+
+            <TextView
+                android:layout_width="109dp"
+                android:layout_height="300dp"
+                android:layout_gravity="start"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@color/text_light_brown"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="188dp" />
+
+            <TextView
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:background="@color/red"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="188dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="574dp"
+                android:layout_gravity="start"
+                android:background="@color/red_brown"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="@color/text_light_brown"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="188dp" />
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="@color/light_pink"
+                android:gravity="center"
+                android:text="7"
+                android:textColor="@color/text_light_brown"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="188dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/blue"
+            android:gravity="start"
+            android:text="NodeJS"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="188dp" />
+
+        <TextView
+            android:layout_width="154dp"
+            android:layout_height="432dp"
+            android:layout_gravity="start"
+            android:background=""
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@color/text_light_brown"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="188dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

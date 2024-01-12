@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LinearLayout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/purple"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:elevation="20dp"
+        android:shadowRadius="10"
+        android:text="@string/linear_layout"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:background="@color/yellow"
+        android:text="@string/android"
+        android:textColor="@color/red"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:background="@color/blue"
+        android:text="@string/php"
+        android:textColor="@color/red"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="336dp"
+        android:background="@color/cyan"
+        android:text="@string/sql"
+        android:textColor="@color/yellow"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/orange"
+        android:text="@string/python"
+        android:textColor="@color/cyan"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+</LinearLayout>
