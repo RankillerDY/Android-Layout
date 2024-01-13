@@ -146,7 +146,6 @@
             android:layout_width="154dp"
             android:layout_height="432dp"
             android:layout_gravity="start"
-            android:background=""
             android:gravity="center"
             android:text="7"
             android:textColor="@color/text_light_brown"
